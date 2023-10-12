@@ -23,7 +23,7 @@ As such, tokens cannot benefit from newly developed features.
 
 A new standard policy is created called **policy-community**. *(not sure than the name is relevant, open to better  suggestions)*
 
-This policy is a "proxy policy". Its role is to serves as a proxy to a list of whitelisted policies. When called from  the ledger, the **policy-community** delegates and calls the whitelisted policies.
+This policy is a "proxy policy". Its role is to act as a proxy to a list of whitelisted policies. When called from  the ledger, the **policy-community** delegates and calls the whitelisted policies.
 
 The existing **policy-fixed-price**, and **policy-auction** are kept as standard policies.
 
@@ -66,8 +66,8 @@ The implementation using a *Proxy pattern* that includes a blacklist is very str
 
 It gives flexibility to the creator:
 
-- Most conservatives creators who want to have full control on their tokens will only enable (or not) standards **policy-fixed-price** and **policy-auction**
+- Most conservatives creators who want to have full control on their tokens will only enable (or not) standards **policy-fixed-price** and **policy-auction**, but will disable **policy-community** to be sure that nothing will be added without their consent.
 
 - Open-minded creators who trust the community will simply enable the **policy-community**.
 
-- Proactive creators will enable the **policy-community** to benefit from innovations, but will keep an eye of what happens, to eventually disable some policies they don't like.
+- Pro-active creators will enable the **policy-community** to benefit from innovations, but will keep an eye of what happens, to eventually disable some policies they don't like.
