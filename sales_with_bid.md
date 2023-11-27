@@ -4,7 +4,7 @@
 - Works with a current Marmalade-NG with only a small change
    - https://github.com/Marmalade-NG/marmalade-ng/tree/alternate_payer
 
-- Need a *"smart buyer" wallet* implementation: relatively straight forward
+- Need a *"smart buyer" wallet* implementation: relatively straight forward.
 
 
 ## Normal flow
